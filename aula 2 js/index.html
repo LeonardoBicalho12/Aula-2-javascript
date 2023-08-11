@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 js</title>
+</head>
+
+<body>
+    </h1>Executando as funções calcs<h1>
+</body>
+<script>
+    /*    function calcsoma(z,y){
+       resposta = z+y;
+       return resposta;
+   }
+   console.log(calcsoma(4, 6));
+   function calcmenos (z,y){
+   resposta = z-y;
+   return resposta
+   }
+   console.log(calcmenos(6, 4));
+   
+   function calcdivide (z, y) {
+       resposta = z/y;
+       return resposta;
+   }
+   console.log(calcdivide(3,7))
+   
+   function calcmultp (z, y){
+       resposta = z*y;
+       return resposta;
+   }
+   console.log(cacmultp(3,4))
+   
+   n1 = parseInt(prompt("digite o valor 1"))
+   n2 = parseInt(prompt("digite o valor 2"))
+   n3 = parseInt(prompt("digite o valor 3"))
+   n4 = parseInt(prompt("digite o valor 5"))
+   calcsoma((n1, n2, n3, n4, n5)/2)
+   alert("o média é:" + resposta) */
+
+
+
+
+    /* 
+        function calcmedia(n1, n2, n3, n4, n5, n6, nome) {
+    
+            resposta = (n1 + n2 + n3 + n4 + n5 + n6) / 6
+            
+            if (resposta > 6) {
+                mensagem = "Parabéns " +nome+ " foi aprovado!"
+              
+            } else {
+                mensagem = "Infelizmente "+nome+ " você não foi aprovado"
+             
+            }
+    
+            return alert(mensagem)
+        }
+    
+        nome = prompt("Qual o seu nome?");
+        n1 = parseFloat(prompt("Digite a primeira nota"));
+        n2 = parseFloat(prompt("Digite a segunda nota"));
+        n3 = parseFloat(prompt("Digite a terceira nota"));
+        n4 = parseFloat(prompt("Digite a quarta nota"));
+        n5 = parseFloat(prompt("Digite a quinta nota"));
+        n6 = parseFloat(prompt("E finalmente digite a sexta nota"));
+        calcmedia(n1, n2, n3, n4, n5, n6, nome)
+     */
+
+
+    nome = prompt("Digite o nome do usuário")
+    senha = parseInt(prompt("Digite a senha"))
+
+    usuario(nome, senha)
+
+    function usuario(nome, senha) {
+        if (nome == "Zé" && senha == 12345678) {
+            mensagem = "acesso liberado"
+        } else {
+            mensagem = "acesso negado"
+        }
+        return alert(mensagem)
+    }
+
+
+
+</script>
+
+</html>
